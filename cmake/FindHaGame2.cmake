@@ -30,6 +30,8 @@ else()
             )
 endif()
 
+include_directories("${FIND_HAGAME2_PATHS}/thirdparty/entt/src/")
+
 set(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
 set(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
 set(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)

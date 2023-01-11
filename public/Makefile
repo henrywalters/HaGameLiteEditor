@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/henry/CLionProjects/HaGameLiteTemplate
+CMAKE_SOURCE_DIR = /home/henry/CLionProjects/HaGameLiteEditor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/henry/CLionProjects/HaGameLiteTemplate/public
+CMAKE_BINARY_DIR = /home/henry/CLionProjects/HaGameLiteEditor/public
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/henry/CLionProjects/HaGameLiteTemplate/public/CMakeFiles /home/henry/CLionProjects/HaGameLiteTemplate/public//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/henry/CLionProjects/HaGameLiteEditor/public/CMakeFiles /home/henry/CLionProjects/HaGameLiteEditor/public//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/henry/CLionProjects/HaGameLiteTemplate/public/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/henry/CLionProjects/HaGameLiteEditor/public/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -115,6 +115,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named imgui
+
+# Build rule for target.
+imgui: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 imgui
+.PHONY : imgui
+
+# fast build rule for target.
+imgui/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/build
+.PHONY : imgui/fast
 
 #=============================================================================
 # Target rules for targets named HaGameLite
@@ -153,6 +166,174 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HaGameLite.dir/build.make CMakeFiles/HaGameLite.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+thirdparty/imgui/backends/imgui_impl_glfw.o: thirdparty/imgui/backends/imgui_impl_glfw.cpp.o
+.PHONY : thirdparty/imgui/backends/imgui_impl_glfw.o
+
+# target to build an object file
+thirdparty/imgui/backends/imgui_impl_glfw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/thirdparty/imgui/backends/imgui_impl_glfw.cpp.o
+.PHONY : thirdparty/imgui/backends/imgui_impl_glfw.cpp.o
+
+thirdparty/imgui/backends/imgui_impl_glfw.i: thirdparty/imgui/backends/imgui_impl_glfw.cpp.i
+.PHONY : thirdparty/imgui/backends/imgui_impl_glfw.i
+
+# target to preprocess a source file
+thirdparty/imgui/backends/imgui_impl_glfw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/thirdparty/imgui/backends/imgui_impl_glfw.cpp.i
+.PHONY : thirdparty/imgui/backends/imgui_impl_glfw.cpp.i
+
+thirdparty/imgui/backends/imgui_impl_glfw.s: thirdparty/imgui/backends/imgui_impl_glfw.cpp.s
+.PHONY : thirdparty/imgui/backends/imgui_impl_glfw.s
+
+# target to generate assembly for a file
+thirdparty/imgui/backends/imgui_impl_glfw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/thirdparty/imgui/backends/imgui_impl_glfw.cpp.s
+.PHONY : thirdparty/imgui/backends/imgui_impl_glfw.cpp.s
+
+thirdparty/imgui/backends/imgui_impl_opengl3.o: thirdparty/imgui/backends/imgui_impl_opengl3.cpp.o
+.PHONY : thirdparty/imgui/backends/imgui_impl_opengl3.o
+
+# target to build an object file
+thirdparty/imgui/backends/imgui_impl_opengl3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/thirdparty/imgui/backends/imgui_impl_opengl3.cpp.o
+.PHONY : thirdparty/imgui/backends/imgui_impl_opengl3.cpp.o
+
+thirdparty/imgui/backends/imgui_impl_opengl3.i: thirdparty/imgui/backends/imgui_impl_opengl3.cpp.i
+.PHONY : thirdparty/imgui/backends/imgui_impl_opengl3.i
+
+# target to preprocess a source file
+thirdparty/imgui/backends/imgui_impl_opengl3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/thirdparty/imgui/backends/imgui_impl_opengl3.cpp.i
+.PHONY : thirdparty/imgui/backends/imgui_impl_opengl3.cpp.i
+
+thirdparty/imgui/backends/imgui_impl_opengl3.s: thirdparty/imgui/backends/imgui_impl_opengl3.cpp.s
+.PHONY : thirdparty/imgui/backends/imgui_impl_opengl3.s
+
+# target to generate assembly for a file
+thirdparty/imgui/backends/imgui_impl_opengl3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/thirdparty/imgui/backends/imgui_impl_opengl3.cpp.s
+.PHONY : thirdparty/imgui/backends/imgui_impl_opengl3.cpp.s
+
+thirdparty/imgui/imgui.o: thirdparty/imgui/imgui.cpp.o
+.PHONY : thirdparty/imgui/imgui.o
+
+# target to build an object file
+thirdparty/imgui/imgui.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/thirdparty/imgui/imgui.cpp.o
+.PHONY : thirdparty/imgui/imgui.cpp.o
+
+thirdparty/imgui/imgui.i: thirdparty/imgui/imgui.cpp.i
+.PHONY : thirdparty/imgui/imgui.i
+
+# target to preprocess a source file
+thirdparty/imgui/imgui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/thirdparty/imgui/imgui.cpp.i
+.PHONY : thirdparty/imgui/imgui.cpp.i
+
+thirdparty/imgui/imgui.s: thirdparty/imgui/imgui.cpp.s
+.PHONY : thirdparty/imgui/imgui.s
+
+# target to generate assembly for a file
+thirdparty/imgui/imgui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/thirdparty/imgui/imgui.cpp.s
+.PHONY : thirdparty/imgui/imgui.cpp.s
+
+thirdparty/imgui/imgui_demo.o: thirdparty/imgui/imgui_demo.cpp.o
+.PHONY : thirdparty/imgui/imgui_demo.o
+
+# target to build an object file
+thirdparty/imgui/imgui_demo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/thirdparty/imgui/imgui_demo.cpp.o
+.PHONY : thirdparty/imgui/imgui_demo.cpp.o
+
+thirdparty/imgui/imgui_demo.i: thirdparty/imgui/imgui_demo.cpp.i
+.PHONY : thirdparty/imgui/imgui_demo.i
+
+# target to preprocess a source file
+thirdparty/imgui/imgui_demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/thirdparty/imgui/imgui_demo.cpp.i
+.PHONY : thirdparty/imgui/imgui_demo.cpp.i
+
+thirdparty/imgui/imgui_demo.s: thirdparty/imgui/imgui_demo.cpp.s
+.PHONY : thirdparty/imgui/imgui_demo.s
+
+# target to generate assembly for a file
+thirdparty/imgui/imgui_demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/thirdparty/imgui/imgui_demo.cpp.s
+.PHONY : thirdparty/imgui/imgui_demo.cpp.s
+
+thirdparty/imgui/imgui_draw.o: thirdparty/imgui/imgui_draw.cpp.o
+.PHONY : thirdparty/imgui/imgui_draw.o
+
+# target to build an object file
+thirdparty/imgui/imgui_draw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/thirdparty/imgui/imgui_draw.cpp.o
+.PHONY : thirdparty/imgui/imgui_draw.cpp.o
+
+thirdparty/imgui/imgui_draw.i: thirdparty/imgui/imgui_draw.cpp.i
+.PHONY : thirdparty/imgui/imgui_draw.i
+
+# target to preprocess a source file
+thirdparty/imgui/imgui_draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/thirdparty/imgui/imgui_draw.cpp.i
+.PHONY : thirdparty/imgui/imgui_draw.cpp.i
+
+thirdparty/imgui/imgui_draw.s: thirdparty/imgui/imgui_draw.cpp.s
+.PHONY : thirdparty/imgui/imgui_draw.s
+
+# target to generate assembly for a file
+thirdparty/imgui/imgui_draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/thirdparty/imgui/imgui_draw.cpp.s
+.PHONY : thirdparty/imgui/imgui_draw.cpp.s
+
+thirdparty/imgui/imgui_tables.o: thirdparty/imgui/imgui_tables.cpp.o
+.PHONY : thirdparty/imgui/imgui_tables.o
+
+# target to build an object file
+thirdparty/imgui/imgui_tables.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/thirdparty/imgui/imgui_tables.cpp.o
+.PHONY : thirdparty/imgui/imgui_tables.cpp.o
+
+thirdparty/imgui/imgui_tables.i: thirdparty/imgui/imgui_tables.cpp.i
+.PHONY : thirdparty/imgui/imgui_tables.i
+
+# target to preprocess a source file
+thirdparty/imgui/imgui_tables.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/thirdparty/imgui/imgui_tables.cpp.i
+.PHONY : thirdparty/imgui/imgui_tables.cpp.i
+
+thirdparty/imgui/imgui_tables.s: thirdparty/imgui/imgui_tables.cpp.s
+.PHONY : thirdparty/imgui/imgui_tables.s
+
+# target to generate assembly for a file
+thirdparty/imgui/imgui_tables.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/thirdparty/imgui/imgui_tables.cpp.s
+.PHONY : thirdparty/imgui/imgui_tables.cpp.s
+
+thirdparty/imgui/imgui_widgets.o: thirdparty/imgui/imgui_widgets.cpp.o
+.PHONY : thirdparty/imgui/imgui_widgets.o
+
+# target to build an object file
+thirdparty/imgui/imgui_widgets.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/thirdparty/imgui/imgui_widgets.cpp.o
+.PHONY : thirdparty/imgui/imgui_widgets.cpp.o
+
+thirdparty/imgui/imgui_widgets.i: thirdparty/imgui/imgui_widgets.cpp.i
+.PHONY : thirdparty/imgui/imgui_widgets.i
+
+# target to preprocess a source file
+thirdparty/imgui/imgui_widgets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/thirdparty/imgui/imgui_widgets.cpp.i
+.PHONY : thirdparty/imgui/imgui_widgets.cpp.i
+
+thirdparty/imgui/imgui_widgets.s: thirdparty/imgui/imgui_widgets.cpp.s
+.PHONY : thirdparty/imgui/imgui_widgets.s
+
+# target to generate assembly for a file
+thirdparty/imgui/imgui_widgets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/thirdparty/imgui/imgui_widgets.cpp.s
+.PHONY : thirdparty/imgui/imgui_widgets.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +343,31 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... HaGameLite"
+	@echo "... imgui"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... thirdparty/imgui/backends/imgui_impl_glfw.o"
+	@echo "... thirdparty/imgui/backends/imgui_impl_glfw.i"
+	@echo "... thirdparty/imgui/backends/imgui_impl_glfw.s"
+	@echo "... thirdparty/imgui/backends/imgui_impl_opengl3.o"
+	@echo "... thirdparty/imgui/backends/imgui_impl_opengl3.i"
+	@echo "... thirdparty/imgui/backends/imgui_impl_opengl3.s"
+	@echo "... thirdparty/imgui/imgui.o"
+	@echo "... thirdparty/imgui/imgui.i"
+	@echo "... thirdparty/imgui/imgui.s"
+	@echo "... thirdparty/imgui/imgui_demo.o"
+	@echo "... thirdparty/imgui/imgui_demo.i"
+	@echo "... thirdparty/imgui/imgui_demo.s"
+	@echo "... thirdparty/imgui/imgui_draw.o"
+	@echo "... thirdparty/imgui/imgui_draw.i"
+	@echo "... thirdparty/imgui/imgui_draw.s"
+	@echo "... thirdparty/imgui/imgui_tables.o"
+	@echo "... thirdparty/imgui/imgui_tables.i"
+	@echo "... thirdparty/imgui/imgui_tables.s"
+	@echo "... thirdparty/imgui/imgui_widgets.o"
+	@echo "... thirdparty/imgui/imgui_widgets.i"
+	@echo "... thirdparty/imgui/imgui_widgets.s"
 .PHONY : help
 
 

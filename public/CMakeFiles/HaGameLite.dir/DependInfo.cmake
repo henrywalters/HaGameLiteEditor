@@ -8,11 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/henry/CLionProjects/HaGameLiteTemplate/main.cpp" "CMakeFiles/HaGameLite.dir/main.cpp.o" "gcc" "CMakeFiles/HaGameLite.dir/main.cpp.o.d"
+  "/home/henry/CLionProjects/HaGameLiteEditor/main.cpp" "CMakeFiles/HaGameLite.dir/main.cpp.o" "gcc" "CMakeFiles/HaGameLite.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/henry/CLionProjects/HaGameLiteEditor/public/CMakeFiles/imgui.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

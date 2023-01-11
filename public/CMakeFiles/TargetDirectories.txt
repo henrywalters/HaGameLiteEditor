@@ -1,3 +1,4 @@
-/home/henry/CLionProjects/HaGameLiteTemplate/public/CMakeFiles/HaGameLite.dir
-/home/henry/CLionProjects/HaGameLiteTemplate/public/CMakeFiles/edit_cache.dir
-/home/henry/CLionProjects/HaGameLiteTemplate/public/CMakeFiles/rebuild_cache.dir
+/home/henry/CLionProjects/HaGameLiteEditor/public/CMakeFiles/imgui.dir
+/home/henry/CLionProjects/HaGameLiteEditor/public/CMakeFiles/HaGameLite.dir
+/home/henry/CLionProjects/HaGameLiteEditor/public/CMakeFiles/edit_cache.dir
+/home/henry/CLionProjects/HaGameLiteEditor/public/CMakeFiles/rebuild_cache.dir

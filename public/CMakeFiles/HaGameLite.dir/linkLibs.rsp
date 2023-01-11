@@ -1,1 +1,1 @@
- /home/henry/CLionProjects/HaGame2/wasm/libHaGame2.a -lGL -lGLU 
+ /home/henry/CLionProjects/HaGame2/wasm/libHaGame2.a -lGL -lGLU libimgui.a -lglfw 

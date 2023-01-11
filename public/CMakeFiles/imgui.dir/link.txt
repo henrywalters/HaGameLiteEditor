@@ -1,0 +1,2 @@
+/home/henry/emsdk/upstream/emscripten/emar qc libimgui.a CMakeFiles/imgui.dir/thirdparty/imgui/backends/imgui_impl_glfw.cpp.o CMakeFiles/imgui.dir/thirdparty/imgui/backends/imgui_impl_opengl3.cpp.o CMakeFiles/imgui.dir/thirdparty/imgui/imgui.cpp.o CMakeFiles/imgui.dir/thirdparty/imgui/imgui_demo.cpp.o CMakeFiles/imgui.dir/thirdparty/imgui/imgui_draw.cpp.o CMakeFiles/imgui.dir/thirdparty/imgui/imgui_tables.cpp.o CMakeFiles/imgui.dir/thirdparty/imgui/imgui_widgets.cpp.o
+/home/henry/emsdk/upstream/emscripten/emranlib libimgui.a

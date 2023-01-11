@@ -1,0 +1,30 @@
+CMakeFiles/imgui.dir/thirdparty/imgui/backends/imgui_impl_glfw.cpp.o: \
+  /home/henry/CLionProjects/HaGameLiteEditor/thirdparty/imgui/backends/imgui_impl_glfw.cpp \
+  /home/henry/CLionProjects/HaGameLiteEditor/thirdparty/imgui/imgui.h \
+  /home/henry/CLionProjects/HaGameLiteEditor/thirdparty/imgui/imconfig.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/float.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__config \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__config_site \
+  /home/henry/emsdk/upstream/lib/clang/16/include/float.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/float.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
+  /home/henry/emsdk/upstream/lib/clang/16/include/stdarg.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stddef.h \
+  /home/henry/emsdk/upstream/lib/clang/16/include/stddef.h \
+  /home/henry/emsdk/upstream/lib/clang/16/include/__stddef_max_align_t.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/string.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/string.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/strings.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/assert.h \
+  /home/henry/CLionProjects/HaGameLiteEditor/thirdparty/imgui/backends/imgui_impl_glfw.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/GLFW/glfw3.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdint.h \
+  /home/henry/emsdk/upstream/lib/clang/16/include/stdint.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/GL/gl.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/GL/glext.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/KHR/khrplatform.h

@@ -1,5 +1,5 @@
 CMakeFiles/HaGameLite.dir/main.cpp.o: \
-  /home/henry/CLionProjects/HaGameLiteTemplate/main.cpp \
+  /home/henry/CLionProjects/HaGameLiteEditor/main.cpp \
   /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/memory \
   /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/copy.h \
   /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/unwrap_iter.h \
@@ -607,6 +607,7 @@ CMakeFiles/HaGameLite.dir/main.cpp.o: \
   /home/henry/emsdk/upstream/lib/clang/16/include/stdarg.h \
   /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/streambuf \
   /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__bsd_locale_fallbacks.h \
+  /home/henry/CLionProjects/HaGame2/include/hagame/graphics/windows.h \
   /home/henry/CLionProjects/HaGame2/include/hagame/graphics/window.h \
   /home/henry/CLionProjects/HaGame2/include/hagame/graphics/glfw.h \
   /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/emscripten.h \
@@ -632,4 +633,126 @@ CMakeFiles/HaGameLite.dir/main.cpp.o: \
   /home/henry/CLionProjects/HaGame2/include/hagame/graphics/resolution.h \
   /home/henry/CLionProjects/HaGame2/include/hagame/graphics/color.h \
   /home/henry/CLionProjects/HaGame2/include/hagame/graphics/rgb.h \
-  /home/henry/CLionProjects/HaGame2/include/hagame/graphics/hsv.h
+  /home/henry/CLionProjects/HaGame2/include/hagame/graphics/hsv.h \
+  /home/henry/CLionProjects/HaGame2/include/hagame/graphics/../utils/pubsub.h \
+  /home/henry/CLionProjects/HaGame2/include/hagame/graphics/../utils/uuid.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/random \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/bernoulli_distribution.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/uniform_real_distribution.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/generate_canonical.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/binomial_distribution.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/cauchy_distribution.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/chi_squared_distribution.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/gamma_distribution.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/exponential_distribution.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/clamp_to_integral.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/default_random_engine.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/linear_congruential_engine.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/is_seed_sequence.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/discard_block_engine.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/discrete_distribution.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/numeric \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/accumulate.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/adjacent_difference.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/exclusive_scan.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/gcd_lcm.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/inclusive_scan.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/inner_product.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/iota.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/midpoint.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/partial_sum.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/reduce.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/transform_exclusive_scan.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/transform_inclusive_scan.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/transform_reduce.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/extreme_value_distribution.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/fisher_f_distribution.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/geometric_distribution.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/negative_binomial_distribution.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/poisson_distribution.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/normal_distribution.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/independent_bits_engine.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/knuth_b.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/shuffle_order_engine.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/lognormal_distribution.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/mersenne_twister_engine.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/piecewise_constant_distribution.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/piecewise_linear_distribution.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/random_device.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/ranlux.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/subtract_with_carry_engine.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/seed_seq.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/student_t_distribution.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__random/weibull_distribution.h \
+  /home/henry/CLionProjects/HaGame2/include/hagame/graphics/../input/input.h \
+  /home/henry/CLionProjects/HaGame2/include/hagame/graphics/../input/inputDevice.h \
+  /home/henry/CLionProjects/HaGame2/include/hagame/graphics/../input/../math/aliases.h \
+  /home/henry/CLionProjects/HaGame2/include/hagame/graphics/../input/devices/keyboardMouse.h \
+  /home/henry/CLionProjects/HaGame2/include/hagame/graphics/../input/devices/../../math/aliases.h \
+  /home/henry/CLionProjects/HaGame2/include/hagame/graphics/../input/devices/../inputDevice.h \
+  /home/henry/CLionProjects/HaGame2/include/hagame/graphics/../input/devices/../../utils/clock.h \
+  /home/henry/CLionProjects/HaGame2/include/hagame/utils/timer.h \
+  /home/henry/CLionProjects/HaGame2/include/hagame/graphics/../utils/./clock.h \
+  /home/henry/CLionProjects/HaGame2/include/hagame/core/game.h \
+  /home/henry/CLionProjects/HaGame2/include/hagame/core/object.h \
+  /home/henry/CLionProjects/HaGame2/include/hagame/core/../utils/macros.h \
+  /home/henry/CLionProjects/HaGame2/include/hagame/core/../utils/uuid.h \
+  /home/henry/CLionProjects/HaGame2/include/hagame/core/scene.h \
+  /home/henry/CLionProjects/HaGame2/include/hagame/core/entity.h \
+  /home/henry/CLionProjects/HaGame2/include/hagame/core/gameObject.h \
+  /home/henry/CLionProjects/HaGame2/include/hagame/core/../math/transform.h \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/registry.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/../config/config.h \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/../config/version.h \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/../config/macro.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cassert \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/assert.h \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/../container/dense_map.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/../container/../config/config.h \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/../container/../core/compressed_pair.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/../container/../core/type_traits.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/../container/../core/../config/config.h \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/../container/../core/fwd.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/../container/../core/iterator.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/../container/../core/memory.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/../container/fwd.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/../core/algorithm.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/../container/../core/utility.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/../core/any.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/../container/../core/../core/utility.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/../container/../core/type_info.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/../container/../core/../core/attribute.h \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/../container/../core/hashed_string.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/../core/fwd.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/../core/iterator.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/../core/memory.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/../core/type_info.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/../core/type_traits.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/../core/utility.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/entity.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/fwd.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/group.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/sparse_set.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/storage.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/component.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/storage_mixin.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/../signal/sigh.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/../signal/delegate.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/../signal/../config/config.h \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/../signal/../core/type_traits.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/../signal/fwd.hpp \
+  /home/henry/CLionProjects/HaGame2/thirdparty/entt/src/entt/entity/view.hpp \
+  /home/henry/CLionProjects/HaGame2/include/hagame/core/../utils/stateMachine.h \
+  /home/henry/CLionProjects/HaGame2/include/hagame/core/../graphics/renderPipeline.h \
+  /home/henry/CLionProjects/HaGame2/include/hagame/core/../graphics/window.h \
+  /home/henry/CLionProjects/HaGame2/include/hagame/core/hg.h \
+  /home/henry/CLionProjects/HaGameLiteEditor/thirdparty/imgui/imgui.h \
+  /home/henry/CLionProjects/HaGameLiteEditor/thirdparty/imgui/imconfig.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/float.h \
+  /home/henry/emsdk/upstream/lib/clang/16/include/float.h \
+  /home/henry/emsdk/upstream/emscripten/cache/sysroot/include/float.h \
+  /home/henry/CLionProjects/HaGameLiteEditor/thirdparty/imgui/imgui_demo.cpp \
+  /home/henry/CLionProjects/HaGameLiteEditor/thirdparty/imgui/backends/imgui_impl_glfw.h \
+  /home/henry/CLionProjects/HaGameLiteEditor/thirdparty/imgui/backends/imgui_impl_opengl3.h \
+  /home/henry/CLionProjects/HaGameLiteEditor/src/mainMenu.h \
+  /home/henry/CLionProjects/HaGameLiteEditor/src/uiObject.h
