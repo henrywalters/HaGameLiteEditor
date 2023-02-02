@@ -25,30 +25,41 @@ namespace hg {
 
         void onInit() override {
             //m_runtime = (Runtime*) game()->scenes()->add<Runtime>("runtime");
+
+            m_renderer.scene(this);
         }
 
         void onUpdate(double dt) override {
 
-            ImGui::Begin("Renderer");
-            auto rendererSize = ImGui::GetWindowSize();
+            m_renderer.clear();
 
-            /*ImGui::Image(
-                    (ImTextureID) m_runtime->renderPasses()->get(RenderMode::Geometry)->texture->id,
-                    ImVec2(rendererSize.x - 10, rendererSize.y - 40),
+            ImGui::Begin("Renderer");
+            auto renderSize = ImGui::GetWindowSize();
+
+            m_renderer.render(hg::Vec2i(renderSize[0] / 6, renderSize[1] / 6));
+
+            ImGui::Image(
+                    (ImTextureID) m_renderer.outputTexture()->id,
+                    ImVec2(renderSize.x - 10, renderSize.y - 40),
                     ImVec2(0, 0)
             );
-            */
+
             ImGui::End();
+
+            m_renderer.cleanup();
         }
 
     private:
+
+        Renderer m_renderer;
+        hg::graphics::RenderPasses<RenderMode> m_renderPasses;
 
         utils::Random m_random;
 
         std::unique_ptr<hg::graphics::MeshInstance> m_mesh;
         std::unique_ptr<hg::graphics::primitives::Quad> m_quad;
 
-        hg::graphics::RenderPasses<RenderMode> m_renderPasses;
+
 
         Runtime* m_runtime;
 

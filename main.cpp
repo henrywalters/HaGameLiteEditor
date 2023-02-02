@@ -29,10 +29,11 @@ namespace hg {
     class HaGameEditor : public Game {
     public:
 
-        HaGameEditor(std::string name) : Game(name) {}
-
-        void onResize(Vec2i size) override {
-            std::cout << size << "\n";
+        HaGameEditor(std::string name) : Game(name) {
+            m_window = Windows::Create(name, HD);
+            Windows::Events.subscribe(WindowEvents::Close, [&](Window* window) {
+                running(false);
+            });
         }
 
         void onInit() override {
@@ -58,11 +59,20 @@ namespace hg {
             io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard;
             io.ConfigFlags |= ImGuiConfigFlags_DockingEnable;
 
-            ImGui_ImplGlfw_InitForOpenGL(window()->window(), true);
+            ImGui_ImplGlfw_InitForOpenGL(m_window->window(), true);
             ImGui_ImplOpenGL3_Init("#version 300 es");
 
             scenes()->add<hg::Editor>("editor");
             scenes()->activate("editor");
+        }
+
+        void onBeforeUpdate() override {
+            m_window->clear();
+
+            ImGui_ImplOpenGL3_NewFrame();
+            ImGui_ImplGlfw_NewFrame();
+            ImGui::NewFrame();
+
         }
 
         void onUpdate(double dt) override {
@@ -71,16 +81,28 @@ namespace hg {
                 element->update(dt);
             }
 
-            window()->title("FPS: " + std::to_string(1.0 / dt));
+            m_window->title("FPS: " + std::to_string(1.0 / dt));
         }
+
+        void onAfterUpdate() override {
+            ImGui::Render();
+            ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
+
+            m_window->render();
+        }
+
+        HG_GET(Window*, window);
+
+    private:
+
+        Window* m_window;
+
     };
 }
 
 int main() {
 
-    auto pipeline = Renderer();
     hg::HaGameEditor editor = hg::HaGameEditor("HaGame Editor");
-    editor.renderPipeline(&pipeline);
     hg::HG::Run(&editor);
 
     return 0;

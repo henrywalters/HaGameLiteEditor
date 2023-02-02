@@ -34,13 +34,13 @@ namespace hg {
 
             updateMatrices();
 
-            m_renderPasses.create(RenderMode::Geometry, game()->window()->size());
+            //m_renderPasses.create(RenderMode::Geometry, game()->window()->size());
 
             for (int i = 0; i < 1000; i++) {
                 auto entity = entities.add();
                 hg::utils::Random rand;
-                entity->transform.position[0] = rand.normal(game()->window()->size()[0] * 0.5, game()->window()->size()[0] * 0.15);
-                entity->transform.position[1] = rand.normal(game()->window()->size()[1] * 0.5, game()->window()->size()[1] * 0.15);
+                //entity->transform.position[0] = rand.normal(game()->window()->size()[0] * 0.5, game()->window()->size()[0] * 0.15);
+                //entity->transform.position[1] = rand.normal(game()->window()->size()[1] * 0.5, game()->window()->size()[1] * 0.15);
                 auto render = entity->addComponent<Renderable>();
                 auto angle = m_random.real<float>(-math::PI, math::PI);
                 auto particle = entity->addComponent<Particle>();
