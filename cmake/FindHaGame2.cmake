@@ -6,7 +6,7 @@ set(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE NEVER)
 # The places to look for the tinyxml2 folders
 set(
         FIND_HAGAME2_PATHS
-        /home/henry/CLionProjects/HaGame2
+        /home/henry/development/games/HaGameLite
 )
 
 find_path(

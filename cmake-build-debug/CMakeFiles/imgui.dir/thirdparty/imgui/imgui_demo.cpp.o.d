@@ -1,7 +1,7 @@
 CMakeFiles/imgui.dir/thirdparty/imgui/imgui_demo.cpp.o: \
-  /home/henry/CLionProjects/HaGameLiteEditor/thirdparty/imgui/imgui_demo.cpp \
-  /home/henry/CLionProjects/HaGameLiteEditor/thirdparty/imgui/imgui.h \
-  /home/henry/CLionProjects/HaGameLiteEditor/thirdparty/imgui/imconfig.h \
+  /home/henry/development/games/HaGameLiteEditor/thirdparty/imgui/imgui_demo.cpp \
+  /home/henry/development/games/HaGameLiteEditor/thirdparty/imgui/imgui.h \
+  /home/henry/development/games/HaGameLiteEditor/thirdparty/imgui/imconfig.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/float.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/stdarg.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/stddef.h \
@@ -31,13 +31,13 @@ CMakeFiles/imgui.dir/thirdparty/imgui/imgui_demo.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/math.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cmath \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/cpp_type_traits.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ext/type_traits.h \
+  /bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/math.h \
+  /bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cmath \
+  /bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/c++config.h \
+  /bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/cpp_type_traits.h \
+  /bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ext/type_traits.h \
   /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -49,7 +49,7 @@ CMakeFiles/imgui.dir/thirdparty/imgui/imgui_demo.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
   /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/std_abs.h \
+  /bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/std_abs.h \
   /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
@@ -82,8 +82,8 @@ CMakeFiles/imgui.dir/thirdparty/imgui/imgui_demo.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/stdlib.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cstdlib \
+  /bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/stdlib.h \
+  /bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cstdlib \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/stdint.h \
   /usr/include/stdint.h /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h

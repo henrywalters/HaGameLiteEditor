@@ -1,10 +1,10 @@
-/home/henry/Downloads/clion-2022.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=clang++ -G "CodeBlocks - Unix Makefiles" -S /home/henry/CLionProjects/HaGameLiteEditor -B /home/henry/CLionProjects/HaGameLiteEditor/cmake-build-debug
-/home/henry/CLionProjects/HaGameLiteEditor
+/home/henry/Downloads/CLion-2022.3.1/clion-2022.3.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=/bin/clang++ -G "CodeBlocks - Unix Makefiles" -S /home/henry/development/games/HaGameLiteEditor -B /home/henry/development/games/HaGameLiteEditor/cmake-build-debug
+/home/henry/development/games/HaGameLiteEditor
 FINDING HAGAME2 LIB
 UNIX
-FIND_HAGAME2_PATHS = /home/henry/CLionProjects/HaGame2
-HAGAME2_INCLUDE_DIR = /home/henry/CLionProjects/HaGame2/include
-HAGAME2_LIBRARY = /home/henry/CLionProjects/HaGame2/lib/libHaGame2.a
+FIND_HAGAME2_PATHS = /home/henry/development/games/HaGameLite
+HAGAME2_INCLUDE_DIR = /home/henry/development/games/HaGameLite/include
+HAGAME2_LIBRARY = /home/henry/development/games/HaGameLite/lib/libHaGame2.a
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/henry/CLionProjects/HaGameLiteEditor/cmake-build-debug
+-- Build files have been written to: /home/henry/development/games/HaGameLiteEditor/cmake-build-debug

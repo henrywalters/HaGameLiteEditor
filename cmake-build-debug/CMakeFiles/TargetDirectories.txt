@@ -1,4 +1,4 @@
-/home/henry/CLionProjects/HaGameLiteEditor/cmake-build-debug/CMakeFiles/imgui.dir
-/home/henry/CLionProjects/HaGameLiteEditor/cmake-build-debug/CMakeFiles/HaGameLite.dir
-/home/henry/CLionProjects/HaGameLiteEditor/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/henry/CLionProjects/HaGameLiteEditor/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/henry/development/games/HaGameLiteEditor/cmake-build-debug/CMakeFiles/imgui.dir
+/home/henry/development/games/HaGameLiteEditor/cmake-build-debug/CMakeFiles/HaGameLiteEditor.dir
+/home/henry/development/games/HaGameLiteEditor/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/henry/development/games/HaGameLiteEditor/cmake-build-debug/CMakeFiles/rebuild_cache.dir

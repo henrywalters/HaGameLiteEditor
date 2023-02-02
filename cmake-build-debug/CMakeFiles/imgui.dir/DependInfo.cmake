@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/henry/CLionProjects/HaGameLiteEditor/thirdparty/imgui/backends/imgui_impl_glfw.cpp" "CMakeFiles/imgui.dir/thirdparty/imgui/backends/imgui_impl_glfw.cpp.o" "gcc" "CMakeFiles/imgui.dir/thirdparty/imgui/backends/imgui_impl_glfw.cpp.o.d"
-  "/home/henry/CLionProjects/HaGameLiteEditor/thirdparty/imgui/backends/imgui_impl_opengl3.cpp" "CMakeFiles/imgui.dir/thirdparty/imgui/backends/imgui_impl_opengl3.cpp.o" "gcc" "CMakeFiles/imgui.dir/thirdparty/imgui/backends/imgui_impl_opengl3.cpp.o.d"
-  "/home/henry/CLionProjects/HaGameLiteEditor/thirdparty/imgui/imgui.cpp" "CMakeFiles/imgui.dir/thirdparty/imgui/imgui.cpp.o" "gcc" "CMakeFiles/imgui.dir/thirdparty/imgui/imgui.cpp.o.d"
-  "/home/henry/CLionProjects/HaGameLiteEditor/thirdparty/imgui/imgui_demo.cpp" "CMakeFiles/imgui.dir/thirdparty/imgui/imgui_demo.cpp.o" "gcc" "CMakeFiles/imgui.dir/thirdparty/imgui/imgui_demo.cpp.o.d"
-  "/home/henry/CLionProjects/HaGameLiteEditor/thirdparty/imgui/imgui_draw.cpp" "CMakeFiles/imgui.dir/thirdparty/imgui/imgui_draw.cpp.o" "gcc" "CMakeFiles/imgui.dir/thirdparty/imgui/imgui_draw.cpp.o.d"
-  "/home/henry/CLionProjects/HaGameLiteEditor/thirdparty/imgui/imgui_tables.cpp" "CMakeFiles/imgui.dir/thirdparty/imgui/imgui_tables.cpp.o" "gcc" "CMakeFiles/imgui.dir/thirdparty/imgui/imgui_tables.cpp.o.d"
-  "/home/henry/CLionProjects/HaGameLiteEditor/thirdparty/imgui/imgui_widgets.cpp" "CMakeFiles/imgui.dir/thirdparty/imgui/imgui_widgets.cpp.o" "gcc" "CMakeFiles/imgui.dir/thirdparty/imgui/imgui_widgets.cpp.o.d"
+  "/home/henry/development/games/HaGameLiteEditor/thirdparty/imgui/backends/imgui_impl_glfw.cpp" "CMakeFiles/imgui.dir/thirdparty/imgui/backends/imgui_impl_glfw.cpp.o" "gcc" "CMakeFiles/imgui.dir/thirdparty/imgui/backends/imgui_impl_glfw.cpp.o.d"
+  "/home/henry/development/games/HaGameLiteEditor/thirdparty/imgui/backends/imgui_impl_opengl3.cpp" "CMakeFiles/imgui.dir/thirdparty/imgui/backends/imgui_impl_opengl3.cpp.o" "gcc" "CMakeFiles/imgui.dir/thirdparty/imgui/backends/imgui_impl_opengl3.cpp.o.d"
+  "/home/henry/development/games/HaGameLiteEditor/thirdparty/imgui/imgui.cpp" "CMakeFiles/imgui.dir/thirdparty/imgui/imgui.cpp.o" "gcc" "CMakeFiles/imgui.dir/thirdparty/imgui/imgui.cpp.o.d"
+  "/home/henry/development/games/HaGameLiteEditor/thirdparty/imgui/imgui_demo.cpp" "CMakeFiles/imgui.dir/thirdparty/imgui/imgui_demo.cpp.o" "gcc" "CMakeFiles/imgui.dir/thirdparty/imgui/imgui_demo.cpp.o.d"
+  "/home/henry/development/games/HaGameLiteEditor/thirdparty/imgui/imgui_draw.cpp" "CMakeFiles/imgui.dir/thirdparty/imgui/imgui_draw.cpp.o" "gcc" "CMakeFiles/imgui.dir/thirdparty/imgui/imgui_draw.cpp.o.d"
+  "/home/henry/development/games/HaGameLiteEditor/thirdparty/imgui/imgui_tables.cpp" "CMakeFiles/imgui.dir/thirdparty/imgui/imgui_tables.cpp.o" "gcc" "CMakeFiles/imgui.dir/thirdparty/imgui/imgui_tables.cpp.o.d"
+  "/home/henry/development/games/HaGameLiteEditor/thirdparty/imgui/imgui_widgets.cpp" "CMakeFiles/imgui.dir/thirdparty/imgui/imgui_widgets.cpp.o" "gcc" "CMakeFiles/imgui.dir/thirdparty/imgui/imgui_widgets.cpp.o.d"
   )
 
 # Targets to which this target links.

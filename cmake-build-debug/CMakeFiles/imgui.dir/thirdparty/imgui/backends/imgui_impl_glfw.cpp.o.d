@@ -1,7 +1,7 @@
 CMakeFiles/imgui.dir/thirdparty/imgui/backends/imgui_impl_glfw.cpp.o: \
-  /home/henry/CLionProjects/HaGameLiteEditor/thirdparty/imgui/backends/imgui_impl_glfw.cpp \
-  /home/henry/CLionProjects/HaGameLiteEditor/thirdparty/imgui/imgui.h \
-  /home/henry/CLionProjects/HaGameLiteEditor/thirdparty/imgui/imconfig.h \
+  /home/henry/development/games/HaGameLiteEditor/thirdparty/imgui/backends/imgui_impl_glfw.cpp \
+  /home/henry/development/games/HaGameLiteEditor/thirdparty/imgui/imgui.h \
+  /home/henry/development/games/HaGameLiteEditor/thirdparty/imgui/imconfig.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/float.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/stdarg.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/stddef.h \
@@ -18,8 +18,8 @@ CMakeFiles/imgui.dir/thirdparty/imgui/backends/imgui_impl_glfw.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/strings.h /usr/include/assert.h \
-  /home/henry/CLionProjects/HaGameLiteEditor/thirdparty/imgui/backends/imgui_impl_glfw.h \
-  /usr/include/GLFW/glfw3.h \
+  /home/henry/development/games/HaGameLiteEditor/thirdparty/imgui/backends/imgui_impl_glfw.h \
+  /usr/local/include/GLFW/glfw3.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/stdint.h \
   /usr/include/stdint.h /usr/include/x86_64-linux-gnu/bits/types.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \

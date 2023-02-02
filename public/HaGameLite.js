@@ -197,7 +197,7 @@ Module['FS_createPath']("/assets", "shaders", true, true);
     }
 
     }
-    loadPackage({"files": [{"filename": "/assets/shaders/sprite.frag", "start": 0, "end": 177}, {"filename": "/assets/shaders/sprite.vert", "start": 177, "end": 624}], "remote_package_size": 624});
+    loadPackage({"files": [{"filename": "/assets/shaders/test.frag", "start": 0, "end": 177}, {"filename": "/assets/shaders/standard.vert", "start": 177, "end": 624}], "remote_package_size": 624});
 
   })();
 

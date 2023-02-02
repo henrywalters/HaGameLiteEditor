@@ -1,7 +1,7 @@
 CMakeFiles/imgui.dir/thirdparty/imgui/imgui_draw.cpp.o: \
-  /home/henry/CLionProjects/HaGameLiteEditor/thirdparty/imgui/imgui_draw.cpp \
-  /home/henry/CLionProjects/HaGameLiteEditor/thirdparty/imgui/imgui.h \
-  /home/henry/CLionProjects/HaGameLiteEditor/thirdparty/imgui/imconfig.h \
+  /home/henry/development/games/HaGameLiteEditor/thirdparty/imgui/imgui_draw.cpp \
+  /home/henry/development/games/HaGameLiteEditor/thirdparty/imgui/imgui.h \
+  /home/henry/development/games/HaGameLiteEditor/thirdparty/imgui/imconfig.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/float.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/stdarg.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/stddef.h \
@@ -18,7 +18,7 @@ CMakeFiles/imgui.dir/thirdparty/imgui/imgui_draw.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/strings.h /usr/include/assert.h \
-  /home/henry/CLionProjects/HaGameLiteEditor/thirdparty/imgui/imgui_internal.h \
+  /home/henry/development/games/HaGameLiteEditor/thirdparty/imgui/imgui_internal.h \
   /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/time64.h \
@@ -32,11 +32,11 @@ CMakeFiles/imgui.dir/thirdparty/imgui/imgui_draw.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/stdlib.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cstdlib \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/stdlib.h \
+  /bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cstdlib \
+  /bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/c++config.h \
+  /bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
@@ -63,11 +63,11 @@ CMakeFiles/imgui.dir/thirdparty/imgui/imgui_draw.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/std_abs.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/math.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cmath \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/cpp_type_traits.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ext/type_traits.h \
+  /bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/std_abs.h \
+  /bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/math.h \
+  /bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cmath \
+  /bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/cpp_type_traits.h \
+  /bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ext/type_traits.h \
   /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
   /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
@@ -165,6 +165,6 @@ CMakeFiles/imgui.dir/thirdparty/imgui/imgui_draw.cpp.o: \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/enqcmdintrin.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/serializeintrin.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/tsxldtrkintrin.h \
-  /home/henry/CLionProjects/HaGameLiteEditor/thirdparty/imgui/imstb_textedit.h \
-  /home/henry/CLionProjects/HaGameLiteEditor/thirdparty/imgui/imstb_rectpack.h \
-  /home/henry/CLionProjects/HaGameLiteEditor/thirdparty/imgui/imstb_truetype.h
+  /home/henry/development/games/HaGameLiteEditor/thirdparty/imgui/imstb_textedit.h \
+  /home/henry/development/games/HaGameLiteEditor/thirdparty/imgui/imstb_rectpack.h \
+  /home/henry/development/games/HaGameLiteEditor/thirdparty/imgui/imstb_truetype.h

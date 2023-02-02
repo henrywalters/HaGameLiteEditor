@@ -2,6 +2,7 @@
 #include <iostream>
 #include "hagame/graphics/windows.h"
 #include "hagame/utils/timer.h"
+#include "hagame/utils/file.h"
 #include "hagame/core/game.h"
 
 #include "hagame/core/hg.h"
@@ -12,25 +13,23 @@
 #include "backends/imgui_impl_opengl3.h"
 
 #include "src/mainMenu.h"
+#include "src/renderer.h"
+#include "src/assets.h"
+
+#include "src/scenes/editor.h"
 
 using namespace hg;
 using namespace hg::graphics;
 using namespace hg::math;
 using namespace hg::utils;
 
-#ifdef __EMSCRIPTEN__
-const std::string ASSET_DIR = "./assets/";
-#else
-const std::string ASSET_DIR = "../assets/";
-#endif
-
 std::vector<std::unique_ptr<UIObject>> uiElements;
 
 namespace hg {
-    class Editor : public Game {
+    class HaGameEditor : public Game {
     public:
 
-        Editor(std::string name) : Game(name) {}
+        HaGameEditor(std::string name) : Game(name) {}
 
         void onResize(Vec2i size) override {
             std::cout << size << "\n";
@@ -38,7 +37,18 @@ namespace hg {
 
         void onInit() override {
 
-            std::cout << "INITIALIZING\n";
+            auto standardVert = utils::f_read(ASSET_DIR + "shaders/standard.vert");
+            auto testFrag = utils::f_read(ASSET_DIR + "shaders/test.frag");
+            auto colorFrag = utils::f_read(ASSET_DIR + "shaders/color.frag");
+            auto textureFrag = utils::f_read(ASSET_DIR + "shaders/texture.frag");
+            auto vertex = Shader::LoadVertex(standardVert);
+            auto testFragment = Shader::LoadFragment(testFrag);
+            auto colorFragment = Shader::LoadFragment(colorFrag);
+            auto textureFragment = Shader::LoadFragment(textureFrag);
+
+            SHADERS.set("test", new ShaderProgram("sprite", vertex, testFragment));
+            SHADERS.set("color", new ShaderProgram("sprite", vertex, colorFragment));
+            SHADERS.set("texture", new ShaderProgram("sprite", vertex, textureFragment));
 
             uiElements.push_back(std::make_unique<MainMenu>());
 
@@ -50,29 +60,27 @@ namespace hg {
 
             ImGui_ImplGlfw_InitForOpenGL(window()->window(), true);
             ImGui_ImplOpenGL3_Init("#version 300 es");
+
+            scenes()->add<hg::Editor>("editor");
+            scenes()->activate("editor");
         }
 
         void onUpdate(double dt) override {
-            ImGui_ImplOpenGL3_NewFrame();
-            ImGui_ImplGlfw_NewFrame();
-            ImGui::NewFrame();
-
-            window()->clear();
 
             for (const auto& element : uiElements) {
                 element->update(dt);
             }
 
-            ImGui::Render();
-            ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
-            window()->render();
+            window()->title("FPS: " + std::to_string(1.0 / dt));
         }
     };
 }
 
 int main() {
 
-    hg::Editor editor = hg::Editor("HaGame Editor");
+    auto pipeline = Renderer();
+    hg::HaGameEditor editor = hg::HaGameEditor("HaGame Editor");
+    editor.renderPipeline(&pipeline);
     hg::HG::Run(&editor);
 
     return 0;
